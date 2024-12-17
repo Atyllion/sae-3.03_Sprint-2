@@ -1,0 +1,55 @@
+# Organisation des données dans les fichiers JSON
+
+## Fichier LYCEES.JSON
+
+Le fichier `lycees.json` contient une liste d'objets JSON représentant des établissements scolaires. Chaque objet a les propriétés suivantes :
+
+- `numero_uai`: Numéro UAI de l'établissement
+- `appellation_officielle`: Nom officiel de l'établissement
+- `denomination_principale`: Dénomination principale de l'établissement
+- `patronyme_uai`: Patronyme UAI de l'établissement
+- `secteur_public_prive_libe`: Secteur (Public/Privé)
+- `adresse_uai`: Adresse de l'établissement
+- `lieu_dit_uai`: Lieu-dit de l'établissement
+- `boite_postale_uai`: Boîte postale de l'établissement
+- `code_postal_uai`: Code postal de l'établissement
+- `localite_acheminement_uai`: Localité d'acheminement de l'établissement
+- `libelle_commune`: Commune de l'établissement
+- `coordonnee_x`: Coordonnée X de l'établissement
+- `coordonnee_y`: Coordonnée Y de l'établissement
+- `EPSG`: Système de coordonnées utilisé
+- `latitude`: Latitude de l'établissement
+- `longitude`: Longitude de l'établissement
+- `appariement`: Appariement de l'établissement
+- `localisation`: Localisation de l'établissement
+- `nature_uai`: Nature UAI de l'établissement
+- `nature_uai_libe`: Libellé de la nature UAI de l'établissement
+- `etat_etablissement`: État de l'établissement (ouvert/fermé)
+- `etat_etablissement_libe`: Libellé de l'état de l'établissement
+- `code_departement`: Code du département de l'établissement
+- `code_region`: Code de la région de l'établissement
+- `code_academie`: Code de l'académie de l'établissement
+- `code_commune`: Code de la commune de l'établissement
+- `libelle_departement`: Libellé du département de l'établissement
+- `libelle_region`: Libellé de la région de l'établissement
+- `libelle_academie`: Libellé de l'académie de l'établissement
+- `position`: Position (latitude, longitude) de l'établissement
+- `secteur_prive_code_type_contrat`: Code du type de contrat pour les établissements privés
+- `secteur_prive_libelle_type_contrat`: Libellé du type de contrat pour les établissements privés
+- `code_ministere`: Code du ministère de tutelle
+- `libelle_ministere`: Libellé du ministère de tutelle
+- `date_ouverture`: Date d'ouverture de l'établissement
+
+## Fichier CANDIDATURES.JSON
+
+Le fichier `candidatures.json` contient une liste d'objets JSON représentant des candidatures. Chaque objet a les propriétés suivantes :
+
+- `DonneesCandidats`: Informations sur le candidat
+    - `NumeroDossierCandidat`: Numéro de dossier du candidat
+    - `Sexe`: Sexe du candidat
+- `Scolarite`: Liste des années scolaires du candidat
+    - `AnneeScolaireCode`: Code de l'année scolaire
+    - `AnneeScolaireLibelle`: Libellé de l'année scolaire
+- `Baccalaureat`: Informations sur le baccalauréat du candidat (actuellement vide)
+
+Ces deux fichiers JSON sont structurés pour stocker des informations détaillées sur les établissements scolaires et les candidatures respectivement, facilitant ainsi l'organisation et la gestion des données pour le projet.
